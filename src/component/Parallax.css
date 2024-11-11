@@ -1,0 +1,54 @@
+.sectionedImg{
+    position: relative;
+   margin-top: -50px;
+}
+.sec{
+    position: absolute;
+    top: 0px;
+    
+}
+.sec1{
+    left: -20px;
+    z-index: 2;
+    
+}
+.sec2 {
+    right: -20px;
+    z-index: 3;
+}
+.sec3{
+    right: -30px;
+    z-index: 2;
+}
+.secHead{
+    color: #213d55;
+    font-size: 2.8rem;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+.sec4{
+   top: 57vh;
+   left: 30vw;
+   transform: translate(-50%);
+    z-index: 5;
+}
+.sec5{
+    top: 10px;
+    z-index: 1;
+}
+.sec6{
+    z-index: -1;
+}
+.sec7{
+    top: 111vh;
+    text-align: justify;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: #213d55;
+    color: white;
+  
+}
+.sec7>p{
+    padding: 2rem 3rem;
+}
